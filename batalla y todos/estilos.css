@@ -1,0 +1,97 @@
+body{
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+}
+
+.title{
+    text-align: center;
+    padding: 16px;
+}
+.pokemon-list{
+    display: grid;
+    grid-template-columns: 1fr 100px 1fr;
+
+    max-width: 800px;
+    margin: auto;
+}
+
+.pokemon{
+    border: 2px solid #333;
+    padding: 10px;
+
+    background: #fff;
+    text-align: center;
+}
+.vs{
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+}
+
+.img{
+    width: 200px; 
+        
+}
+.regresar{
+	margin: 0px;
+	padding: 0px;
+}
+
+.btn {
+	-moz-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	-webkit-box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	box-shadow:inset 0px 34px 0px -15px #b54b3a;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a73f2d), color-stop(1, #b34332));
+	background:-moz-linear-gradient(top, #a73f2d 5%, #b34332 100%);
+	background:-webkit-linear-gradient(top, #a73f2d 5%, #b34332 100%);
+	background:-o-linear-gradient(top, #a73f2d 5%, #b34332 100%);
+	background:-ms-linear-gradient(top, #a73f2d 5%, #b34332 100%);
+	background:linear-gradient(to bottom, #a73f2d 5%, #b34332 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a73f2d', endColorstr='#b34332',GradientType=0);
+	background-color:#a73f2d;
+	border:1px solid #241d13;
+	display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+
+    cursor: pointer;
+
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #7a2a1d;
+}
+.btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b3433275), color-stop(1, #a73f2d));
+	background:-moz-linear-gradient(top, #b34332 5%, #a73f2d 100%);
+	background:-webkit-linear-gradient(top, #b34332 5%, #a73f2d 100%);
+	background:-o-linear-gradient(top, #b34332 5%, #a73f2d 100%);
+	background:-ms-linear-gradient(top, #b34332 5%, #a73f2d 100%);
+	background:linear-gradient(to bottom, #b34332 5%, #a73f2d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b34332', endColorstr='#a73f2d',GradientType=0);
+	background-color:#b34332;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.hamburguesa{
+    
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
